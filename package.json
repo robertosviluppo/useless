@@ -1,0 +1,11 @@
+{
+  "name": "@robertosviluppo/useless",
+  "version": "0.1.0",
+  "description": "Useless package to learn NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "robertosviluppo@gmail.com",
+  "license": "MIT"
+}
