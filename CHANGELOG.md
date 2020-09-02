@@ -1,4 +1,7 @@
 # Next version
++ Customize Travis
+
+## 0.2.0
 + Add Makefile
 + Add Travis CI
 + Add MIT license
