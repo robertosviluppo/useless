@@ -7,11 +7,16 @@ language: node_js
 node_js:
   - node
   #- lts/*
-  - 14
+  #- 14
   #- 13
   #- 12
   #- 11
   #- 10
+
+deploy:
+  provider: npm
+  email: "robertosviluppo@gmail.com"
+  api_key: ${NPM_API_KEY}
 
 install:
   - npm install
