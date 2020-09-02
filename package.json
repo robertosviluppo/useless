@@ -8,15 +8,18 @@
     "url": "https://github.com/robertosviluppo/useless.git"
   },
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "node_modules/.bin/mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=10"
   },
   "author": "robertosviluppo@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.2.0",
+    "coveralls": "^3.1.0",
+    "istanbul": "^0.4.5",
     "mocha": "^8.1.3"
   }
 }
